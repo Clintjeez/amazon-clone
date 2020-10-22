@@ -15,15 +15,53 @@ function Home() {
         />
 
         <div className="home__row">
-          <Product />
-          {/* products */}
+          <Product
+            id="123343"
+            title="Monika wood sofa"
+            price="302.99"
+            image="https://images-na.ssl-images-amazon.com/images/I/51dx6RUA%2BBL._SX425_.jpg"
+            rating={5}
+          />
+          <Product
+            id="123343"
+            title="Monika wood bed-set"
+            price="302.99"
+            image="https://www.canadianwood.in/wp-content/uploads/2018/03/Application-Furniture.png"
+            rating={5}
+          />
         </div>
         <div className="home__row">
-          {/* products */}
-          {/* products */}
-          {/* products */}
+          <Product
+            id="123343"
+            title="Monika wood sofa"
+            price="302.99"
+            image="https://images-na.ssl-images-amazon.com/images/I/51dx6RUA%2BBL._SX425_.jpg"
+            rating={5}
+          />
+          <Product
+            id="123343"
+            title="Monika wood sofa"
+            price="302.99"
+            image="https://images-na.ssl-images-amazon.com/images/I/51dx6RUA%2BBL._SX425_.jpg"
+            rating={5}
+          />
+          <Product
+            id="123343"
+            title="Monika wood sofa"
+            price="302.99"
+            image="https://images-na.ssl-images-amazon.com/images/I/51dx6RUA%2BBL._SX425_.jpg"
+            rating={5}
+          />
         </div>
-        <div className="home__row">{/* products */}</div>
+        <div className="home__row">
+          <Product
+            id="123343"
+            title="Monika wood sofa"
+            price="302.99"
+            image="https://images-na.ssl-images-amazon.com/images/I/51dx6RUA%2BBL._SX425_.jpg"
+            rating={5}
+          />
+        </div>
       </div>
     </div>
   );
